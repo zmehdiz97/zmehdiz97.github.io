@@ -8,9 +8,9 @@ version: 2
 # Personal info
 name: Mehdi Zemni
 title: Research intern in machine learning
-email: mehdi.zemn@student-cs.fr
+email: mehdi{dot}zemni{at}student-cs{dot}à)fr
 # email_title: Email (Email title override)
-phone: 0659225078
+#phone: 0659225078
 # phone_title: Phone (Phone title override)
 #website: Your website (eg. https://google.com)(optional)
 website_title: www.github.com/zmehdiz97
@@ -57,7 +57,7 @@ about_content: | # this will include new lines to allow paragraphs
     - Lists
     - Tables
     - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+#- Images ![alt text](/images/landscape-trees.jpg "Trees")
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
