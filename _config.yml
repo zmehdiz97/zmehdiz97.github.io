@@ -53,11 +53,10 @@ linkedin_username: mehdi zemni
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am a final year student at Centralesupélec and master's student at ENS Paris-Saclay (MVA). 
-  Passionate about AI and computer vision and highly motivated by technical challenges. My interests include <mark> generative models </mark>, <mark> self-supervised learning</mark>, <mark> Interpretabilty</mark> and <mark> 3D computer vision</mark>. Proactive in my work with a strong desire for self-improvement and overachievement.
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
+  Passionate about AI and computer vision and highly motivated by technical challenges. My interests include <mark>generative models</mark>, <mark>self-supervised learning</mark>, <mark>Interpretabilty</mark> and <mark>3D computer vision</mark>. Proactive in my work with a strong desire for self-improvement and overachievement.
+#    - Lists
+#    - Tables
+#    - <a href="google.com">Links</a>
 #- Images ![alt text](/images/landscape-trees.jpg "Trees")
 content:
   - title: Projects # Title for the section
@@ -66,7 +65,7 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
+        title: Single Image Super-Resolution via Iterative Refinement
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
         additional_links:
@@ -79,19 +78,23 @@ content:
         quote: >
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Using Conditionnal Denoising Diffusion Probabilistic Models(DDPM) for image super-resolution
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
+        title: Dassault systèmes
+        sub_title: Research intern
+        caption: March 2021 - August 2021
         link: Link to company (optional)
         quote: >
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Deep learning for controlled generation of visual content:
+          - Using generative models (e.g., GANs) for image synthesis.
+          - Exploitation of GANs for image editing
+          - Real image editing by projection into latent space
+          - Image super-resolutionDeep
   - title: Education
     layout: list
     content:
