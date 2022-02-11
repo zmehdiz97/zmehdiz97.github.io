@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Mehdi Zemni
 title: Research intern in machine learning
-email: mehdi{dot}zemni{at}student-cs{dot}à)fr
+email: mehdi{dot}zemni{at}student-cs{dot}fr
 # email_title: Email (Email title override)
 #phone: 0659225078
 # phone_title: Phone (Phone title override)
@@ -16,7 +16,7 @@ email: mehdi{dot}zemni{at}student-cs{dot}à)fr
 website_title: www.github.com/zmehdiz97
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 #twitter_username: jekyllrb
@@ -26,7 +26,7 @@ github_username: zmehdiz97
 #facebook_username: jekyll
 #flickr_username: jekyll
 #instagram_username: jekyll
-linkedin_username: mehdi zemni
+linkedin_username: mehdi-zemni-35781b16b
 #xing_username: jekyll
 #pinterest_username: jekyll
 #youtube_username: jekyll
@@ -59,6 +59,91 @@ about_content: | # this will include new lines to allow paragraphs
 #    - <a href="google.com">Links</a>
 #- Images ![alt text](/images/landscape-trees.jpg "Trees")
 content:
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        title: ENS Paris-Saclay
+        sub_title: MVA
+        caption: 2022
+        #quote: >
+        #  Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          MVA (Mathematics, Computer Vision, Machine Learning) is one of the best
+          master's program in applied mathematics that focuses on the theoretical 
+          foundations of machine learning as well as on modern developments in the field.
+
+          **Relevant coursework**: 
+
+          Convex optimization, Large scale convex optimization, Numerical imaging,
+          Image Denoising, Point clouds and 3D modeling, Deep Learning in practice,
+          Kernel methods, Deep reinforcement learning, Random matrix theory, Medical imaging.
+      - layout: top-left
+        title: Centralesupélec
+        sub_title: M.Eng
+        caption: 2018 - 2022
+        #quote: >
+        #  Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Engineering degree in applied mathematics and datascience.
+
+          **Relevant coursework**: 
+
+          Probability, Stochastic processes, Statistics, Optimization,
+          Advanced machine learning, NLP, Computer vision, ML in network science
+      - layout: top-left
+        title: National University of Singapore
+        sub_title: Exchange semester
+        caption: 2020
+        #quote: >
+        #  Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Exchange semester at NUS
+
+          **Relevant coursework**: 
+
+          Economy, Stochastic processes, Statistics for acturial science, Decision making methods
+      - layout: top-left
+        title: Lycée Janson de Sailly
+        sub_title: MPSI/MP*
+        caption: 2016 - 2018
+        #quote: >
+        #  Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Two-year intensive preparation in Maths and Physics for
+          the highly competitive entrance exams to the French engineering
+          Grandes Ecoles.
+
+          Awarded the tunisian government excellence fellowship (top 0.1% national wide)
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Dassault systèmes
+        sub_title: Research intern
+        caption: March 2021 - August 2021
+        link: Link to company (optional)
+        quote: >
+          <mark>Deep learning</mark> <mark>GAN</mark> <mark>VAE</mark> <mark>Contrastive learning</mark>
+        description: | # this will include new lines to allow paragraphs
+          Deep learning for controlled generation of visual content:
+          - Using generative models (e.g., GANs) for image synthesis.
+          - Exploitation of GANs for image editing
+          - Real image editing by projection into latent space
+          - Image super-resolutionDeep
+      - layout: left
+        title: Polynom
+        sub_title: Machine learning engineer (intern)
+        caption: September 2021 - February 2021
+        link: Link to company (optional)
+        quote: >
+          <mark>Deep Learning</mark> <mark>Anomaly detection</mark>
+          <mark>Multi-object tracking</mark> <mark>Object detection</mark>
+        description: | # this will include new lines to allow paragraphs
+          - Predictive maintenance project for a European industrial leader.
+          - Designing and developing Computer Vision solutions to detect
+          anomalies in electrical installations (pylons, high voltage lines) from
+          aerial shots made up of videos of different types (HD, thermal, ..)
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -79,40 +164,11 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Using Conditionnal Denoising Diffusion Probabilistic Models(DDPM) for image super-resolution
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Dassault systèmes
-        sub_title: Research intern
-        caption: March 2021 - August 2021
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Deep learning for controlled generation of visual content:
-          - Using generative models (e.g., GANs) for image synthesis.
-          - Exploitation of GANs for image editing
-          - Real image editing by projection into latent space
-          - Image super-resolutionDeep
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
